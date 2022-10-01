@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: boreder-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  body {
+    background: linear-gradient(45deg, #e66465, #9198e5);  font-family:Franklin Gothic Medium,timesnewroman,georgia,serif;
+    color: black;
+    text-align: center;
+  }
+  
+  h1 {
+    color: rgb(60,45,50);
+    font-family:Impact,Franklin Gothic Medium;
+    letter-spacing: 1px;
+    margin-top: 7px;
+  }
+  
+  p {
+    color: rgb(80,20,80);
+    font-family: mv boli;
+    margin-bottom: 15px;;
+  }
+  
+  form {
+    margin: 25px;
+    padding: 10px;
+    border: 2px solid rgb(60,45,50);
+    border-radius: 8px;
+    color: rgb(80,20,80);
+    line-height:24px;
+  }
+  
+  #name, #email, #number, #dropdown{
+    margin-bottom:10px;
+  }
+  
+  input, select, textarea{
+    background: rgb(255, 170, 255);
+    color:black;
+    font-weight: bold;
+    border-radius: 5px;
+    font-family: mv boli;
+  }
+  
+  ::placeholder {
+    color:black;
+    opacity:0.5;
+  }
+  
+  fieldset{
+    margin-bottom: 40px;
+    border-radius: 5px;
+  }
+  
+  textarea{
+    width: 300px;
+    height: 50px;
+    vertical-align: middle;
+    border-radius: 5px;
+    padding: 5px;
+  }  
+  
+
+  button{
+    margin: 50px;
+    background-color: rgb(80,20,80);
+    border-radius: 5px;
+    padding: 30px 60px;
+    color:rgb(255, 170, 255);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    font-family:Impact,Franklin Gothic Medium;
+  }
+
+  button:hover{
+    background-color: rgb(255, 170, 255);
+    color: rgb(80,20,80);
+  }

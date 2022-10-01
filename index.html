@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>SURVEY</title>
+    </head>
+    <body>
+        <h1 id ="title">freeCodeCamp Survey Form</h1>
+        <p id ="description">Thank you for taking the time to help us improve the platform</p>
+        <form id="survey-form">
+            <label for="name" id="name-label" >Name*</label>
+            <input type="text" id="name" placeholder="Enter your name" required><br>
+            <label for="email" id="email-label">Email*</label>
+            <input type="email" id="email" placeholder="Enter your Email" required><br>
+            <label for="number" id="number-label">Age*(18-80)</label>
+            <input type="number" id="number" min="18" max="80" placeholder="18" required><br>
+            <label for="dropdown">Which option best describes your current role?</label>
+            <select name="role"id="dropdown">
+                <option value="">--Please select an option--</option>
+                <option value="student">Student</option>
+                <option value="full_time">Full time job</option>
+                <option value="part_time">Part time job</option>
+                <option value="no">Prefer not to say</option>
+                <option value="other">Other</option> 
+            </select><br>
+
+            <fieldset>
+                <legend>Would you recommend freeCodeCamp to a friend?</legend>
+                <div>
+                    <input type="radio" id="def" name="rate" value="3">
+                    <label for="def">Defently</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="may" name="rate" value="2" checked>
+                    <label for="may">Maybe</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="not" name="rate" value="1">
+                    <label for="not">Not Sure</label>
+                </div>
+
+            </fieldset>
+
+
+            <fieldset>
+                <legend>What would you like to see improved? (Check all that apply)</legend>  
+                <div>
+                    <input type="checkbox" name="front" value="front">
+                    <label for="front">Front-end Projects</label>
+                </div> 
+    
+                <div>
+                    <input type="checkbox" name="back" value="back">
+                    <label for="back">Back-end Projects</label>
+                </div>  
+    
+                <div>
+                    <input type="checkbox" name="video" value="video">
+                    <label for="video">Video</label>
+                </div>
+    
+                <div>
+                    <input type="checkbox" name="wiki" value="wiki">
+                    <label for="wiki">Wiki</label>
+                </div>
+    
+                <div>
+                    <input type="checkbox" name="challenges" value="challenges">
+                    <label for="challanges">Challanges</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" name="course" value="course">
+                    <label for="course">Additional Courses</label>
+                </div>
+
+            </fieldset>  
+
+            <label for="comm" id="comm">Any comments or suggestions?</label>
+            <textarea id="comm" placeholder="Enter your comment here..."></textarea><br>  
+
+            <button id="submit">SUBMIT</button>
+
+        </form>
+
+    </body>
+
+</html>
